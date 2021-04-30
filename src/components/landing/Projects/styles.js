@@ -7,16 +7,16 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
   @media (max-width: 960px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media (max-width: 680px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 `;
 
@@ -33,10 +33,15 @@ export const Item = styled.div`
   p {
     color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
+
+  img {
+    max-height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 `;
 
 export const Content = styled.div`
-  padding: 1rem 0;
   min-height: 160px;
 `;
 
