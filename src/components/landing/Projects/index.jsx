@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { ThemeContext } from "providers/ThemeProvider";
 import products from "../../../data/data";
 import { Grid, Card } from "@material-ui/core";
-import Product from "../../product/index";
 import "./index.css";
 
 export const Projects = () => {
@@ -88,7 +87,6 @@ export const Projects = () => {
           ))}
         </Grid>
       </div>
-      <Product product={products[0]} />
     </>
   );
 };
