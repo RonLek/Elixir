@@ -1,12 +1,9 @@
 import React, { useContext } from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import { ThemeContext } from "providers/ThemeProvider";
-import { Container } from "components/common";
-import Star from "components/common/Icons/Star";
-import Fork from "components/common/Icons/Fork";
-import { Wrapper } from "./styles";
 import products from "../../../data/data";
-import { Grid, Card, CardContent, Paper } from "@material-ui/core";
+import { Grid, Card } from "@material-ui/core";
+
+import "./index.css";
 
 export const Projects = () => {
   const { theme } = useContext(ThemeContext);
@@ -31,8 +28,8 @@ export const Projects = () => {
         spacing={3}
       >
         {products.map((product) => (
-          <Grid item lg={4}>
-            <a href="https://google.com">
+          <Grid key={product.name} item lg={4}>
+            <a className="card-link" href="https://google.com">
               <Card
                 elevation={5}
                 style={{
@@ -53,6 +50,38 @@ export const Projects = () => {
                   src={product.image}
                 />
               </Card>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  marginTop: "20px",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "30px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    {product.emoji}
+                  </span>
+                  <h3 style={{ color: "#57585A", marginBottom: "10px" }}>
+                    {" "}
+                    {product.name}
+                  </h3>
+                </div>
+                <div>
+                  <p style={{ color: "grey" }}>{product.description}</p>
+                </div>
+              </div>
             </a>
           </Grid>
         ))}

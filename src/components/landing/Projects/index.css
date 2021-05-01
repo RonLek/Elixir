@@ -1,0 +1,9 @@
+.card-link {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card-link:hover {
+  top: -10px;
+}
