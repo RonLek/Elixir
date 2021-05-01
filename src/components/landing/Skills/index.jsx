@@ -18,7 +18,7 @@ export const Skills = () => {
           <center><h1>Recommended Tunes</h1></center>
           <center>
           <p>
-           Music that inspires us
+          Let the music take you away.
           </p>
           </center>
 
