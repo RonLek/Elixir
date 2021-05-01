@@ -1,0 +1,16 @@
+.TopImage {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.linkwebsite {
+	display: block;
+	text-align: end;
+}
+
+.linkyoutube {
+	display: block;
+	text-align: start;
+}

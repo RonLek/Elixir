@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+  /* background-color: #3f3f3f; */
+}
+
+.player {
+  margin-top: 50px;
+  display: grid;
+}
+
+.playerVal {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.viewCount {
+  float: right;
+  text-align: center;
+}
+
+.viewCount h2 {
+  margin-right: 30px;
+  font-size: 170%;
+}
+
+.likeCount {
+  float: left;
+  text-align: center;
+}
+
+.likeCount h2 {
+  font-size: 170%;
+}
