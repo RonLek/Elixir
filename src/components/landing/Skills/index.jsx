@@ -9,7 +9,7 @@ export const Skills = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <div style={{paddingLeft:"20px"}} >
+    <div id="tunes" style={{paddingLeft:"20px"}} >
     <iframe src="https://open.spotify.com/embed/playlist/5SMjI3BRUfxfOPpmun0p7s" width="100%" height="700" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
   

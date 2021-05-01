@@ -14,6 +14,7 @@ export const IntroWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -30,7 +31,7 @@ export const Details = styled.div`
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 36pt;
+    font-size: 50pt;
     color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
 
     @media (max-width: 960px) {
@@ -60,12 +61,14 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
+  display: flex;
+  justify-content: center;
 
   @media (max-width: 960px) {
     width: 100%;
   }
 
   img {
-    width: 100%;
+    width: 250px;
   }
 `;
