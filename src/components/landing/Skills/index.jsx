@@ -9,22 +9,9 @@ export const Skills = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <Wrapper id="about">
-      <SkillsWrapper as={Container}>
-        <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
-        </Thumbnail>
-        <Details theme={theme}>
-          <h1>More about me</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
-          </p>
-          <Button as={AnchorLink} href="#contact">
-            Hire me
-          </Button>
-        </Details>
-      </SkillsWrapper>
-    </Wrapper>
+    <div style={{paddingLeft:"20px"}} >
+    <iframe src="https://open.spotify.com/embed/playlist/5SMjI3BRUfxfOPpmun0p7s" width="100%" height="700" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  
   );
 };
