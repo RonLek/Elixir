@@ -19,6 +19,8 @@ module.exports = [
 		color: "#5458af",
 		emoji: "👥",
 		description: "Meet, chat, call, and collaborate in just one place.",
+		website:"https://www.microsoft.com/en-in/microsoft-teams/group-chat-software/",
+		channel:"https://www.youtube.com/channel/UCc3pNIRzIZ8ynI38GO6H01Q",
 	},
 	{
 		name: "Airtable",
@@ -28,6 +30,8 @@ module.exports = [
 		emoji: "✈️",
 		description:
 			"Airtable is a low-code platform for building collaborative apps.",
+			website:"https://airtable.com/",
+			channel:"https://www.youtube.com/channel/UCHH6_KYYWUYaWzD5CPNQ6ng",
 	},
 	{
 		name: "Zendesk Sunshine",
@@ -38,6 +42,8 @@ module.exports = [
 		emoji: "🕶️",
 		description:
 			"Zendesk Sunshine™ is an open and flexible CRM platform native to AWS.",
+			website:"https://www.zendesk.com/",
+			channel:"https://www.youtube.com/channel/UCEsBG5HS3yodOTc30QWsW_A",
 	},
 	{
 		name: "Slack",
@@ -50,6 +56,8 @@ module.exports = [
 			"A new way to communicate – faster than email and more focused than chat.",
 		website: "https://slack.com",
 		channel: "https://www.youtube.com/channel/UCY3YECgeBcLCzIrFLP4gblw",
+		website:"https://slack.com/intl/",
+			channel:"https://www.youtube.com/channel/UCY3YECgeBcLCzIrFLP4gblw",
 	},
 	{
 		name: "Duolingo",
@@ -58,6 +66,8 @@ module.exports = [
 		color: "#ffffff",
 		emoji: "🦉",
 		description: "The best new way to learn a language.",
+		website:"https://www.duolingo.com/",
+			channel:"https://www.youtube.com/channel/UCG98ruDeyp55THxbpBCIv3g",
 	},
 	{
 		name: "Headspace",
@@ -67,6 +77,8 @@ module.exports = [
 		emoji: "💆‍♂️",
 		description:
 			"Live a healthier, happier, more well-rested life in just a few minutes a day.",
+			website:"https://www.headspace.com/",
+			channel:"https://www.youtube.com/channel/UC3JhfsgFPLSLNEROQCdj-GQ",
 	},
 	{
 		name: "Ring Door View",
@@ -75,6 +87,8 @@ module.exports = [
 		emoji: "👀",
 		description:
 			"Protect your home & watch over what's important from your phone.",
+			website:"https://ring.com/",
+			channel:"https://www.youtube.com/channel/UCSDG3M0e2mGX9_qtHEtzj2Q",
 	},
 	{
 		name: "Zoom",
@@ -84,6 +98,8 @@ module.exports = [
 		color: "#2e8bfc",
 		emoji: "📹",
 		description: "Keeping you securely connected wherever you are.",
+		website:"https://zoom.us/",
+			channel: "https://www.youtube.com/channel/UC2SxmE4C-KAQuHaEfHVymgQ",
 	},
 	{
 		name: "Western Union",
@@ -93,6 +109,8 @@ module.exports = [
 		color: "#000000",
 		emoji: "💸",
 		description: "Online money transfers around the world, 24/7",
+		website:"https://www.westernunion.com/",
+			channel:"https://www.youtube.com/channel/UC8JLLIiacaN8uRiwYRfqNMw",
 	},
 	{
 		name: "Shopify",
@@ -102,6 +120,8 @@ module.exports = [
 		emoji: "🛍️",
 		description:
 			"The best E-Commerce Platform that helps you to Sell Online, on Facebook, or in person.",
+			website: "https://www.shopify.com/",
+			channel:"https://www.youtube.com/channel/UCIv38OrggTu3vNkCAo96-CQ",
 	},
 	{
 		name: "Groupon",
@@ -111,6 +131,8 @@ module.exports = [
 		color: "#ffffff",
 		emoji: "🎫",
 		description: "Save Up to $100 a Week on What You Do Every Day.",
+		website:"https://www.groupon.com/",
+			channel:"https://www.youtube.com/channel/UCprx6X1a-yWk_5u2W1D6gmQ	",
 	},
 	{
 		name: "Zazzle",
@@ -121,6 +143,8 @@ module.exports = [
 		emoji: "🖼️",
 		description:
 			"Online marketplace that allows designers and customers to create their own products.",
+			website:"https://www.zazzle.com/",
+			channel:"https://www.youtube.com/channel/UCoPlipOfn_kc1y1q7sXN5yQ",
 	},
 	{
 		name: "Nightingale",
@@ -131,6 +155,8 @@ module.exports = [
 		emoji: "💤",
 		description:
 			"No longer worry about that bump in the night rousing you from sleep.",
+			website:"https://www.sleepscore.com/partners/nightingale/",
+			channel:"https://www.youtube.com/channel/UCf-d-XNoUwis7w515lt2I0Q",
 	},
 	{
 		name: "Todoist",
@@ -140,6 +166,8 @@ module.exports = [
 		color: "#d34035",
 		emoji: "📋",
 		description: "The to do list to organize work & life.",
+		website:"https://todoist.com/",
+			channel:"https://www.youtube.com/channel/UCQ_61yRKscCnkIJBPoR15EA",
 	},
 	{
 		name: "Ahrefs",
@@ -149,6 +177,8 @@ module.exports = [
 		color: "#1658db",
 		emoji: "📈",
 		description: "Optimize your website and get more traffic from Google.",
+		website:"https://ahrefs.com/",
+			channel:"https://www.youtube.com/channel/UCWquNQV8Y0_defMKnGKrFOQ",
 	},
 	{
 		name: "Calm",
@@ -158,6 +188,8 @@ module.exports = [
 		color: "#ffffff",
 		emoji: "😌",
 		description: "Calm is the #1 app for sleep and meditation.",
+		website:"https://www.calm.com/",
+			channel:"https://www.youtube.com/channel/UChSpME3QaSFAWK8Hpmg-Dyw",
 	},
 	{
 		name: "Panorama",
@@ -167,6 +199,8 @@ module.exports = [
 		emoji: "☁️",
 		description:
 			"Monitoring and remote management of your entire IT environment from the cloud.",
+			website:"https://www.panorama9.com",
+			channel:"https://www.youtube.com/channel/UCQT2rMHuAnJ_FpTVQa-gMJQ",
 	},
 	{
 		name: "Someity",
@@ -175,5 +209,7 @@ module.exports = [
 		color: "#ffffff",
 		emoji: "👩‍🦯",
 		description: "Making the Web Accessible for All.",
+		website:"https://devpost.com/software/someity",
+			channel:"https://www.youtube.com/embed/B8UydVf37yY",
 	},
 ];
