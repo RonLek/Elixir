@@ -3,8 +3,6 @@
 
 ## Usage
 
-### Locally
-
 1. Create an account at [Formik](https://formik.com/?utm_source=smakosh)
 2. Install [Yarn](https://yarnpkg.com/en/)
 3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
