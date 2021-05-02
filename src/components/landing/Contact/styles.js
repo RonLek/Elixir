@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 4rem 0;
+  padding: 10rem 0 4rem 0;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 
   @media (max-width: 960px) {
