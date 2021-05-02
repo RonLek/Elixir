@@ -1,5 +1,5 @@
 # Elixir
-![Elixir](https://user-images.githubusercontent.com/38288671/116812682-a69ca200-ab6d-11eb-8526-65d7d620538e.PNG)
+![Elixir](/elixir.png)
 
 ## Usage
 
