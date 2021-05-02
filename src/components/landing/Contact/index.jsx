@@ -36,9 +36,11 @@ export const Contact = () => {
         aria-labelledby="form-dialog-title"
         fullWidth
       >
-        <DialogTitle style={{marginBottom: "30px"}}>Add to Elixir</DialogTitle>
+        <DialogTitle style={{ marginBottom: "30px" }}>
+          Add to Elixir
+        </DialogTitle>
         <DialogContent>
-        <ContactForm />
+          <ContactForm />
         </DialogContent>
       </Dialog>
     </Wrapper>
