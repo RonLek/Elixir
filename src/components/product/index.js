@@ -28,8 +28,8 @@ function App({product}) {
               src={product.youtube}
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen="allowFullScreen"
             ></iframe>
           </div>
         </Grid>
