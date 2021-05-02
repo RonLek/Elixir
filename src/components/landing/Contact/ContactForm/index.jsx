@@ -8,7 +8,6 @@ import { Error, Center, InputField } from "./styles";
 import { TextField, Autocomplete } from "@material-ui/core";
 
 export default () => (
-  // const categories = ["Product Video", "Tune Recommendation"] (
     <Formik
       initialValues={{
         name: "",
@@ -56,16 +55,6 @@ export default () => (
     >
       {({ values, touched, errors, setFieldValue, isSubmitting }) => (
         <Form>
-          {/* <InputField>
-            <Autocomplete
-              id="combo-box-demo"
-              options={top100Films}
-              style={{ width: 300 }}
-              renderInput={(params) => (
-                <TextField {...params} label="Combo box" variant="outlined" />
-              )}
-            />
-          </InputField> */}
           <InputField>
             <Input
               as={FastField}
@@ -119,8 +108,7 @@ export default () => (
             <InputField>
               <Center>
                 <h4>
-                  Your message has been successfully sent, I will get back to
-                  you ASAP!
+                  Thank you for making Elixir better. Your product video will be listed shortly!
                 </h4>
               </Center>
             </InputField>
@@ -134,4 +122,3 @@ export default () => (
       )}
     </Formik>
   );
-// };
