@@ -3,8 +3,8 @@ module.exports = {
   logo: 'https://i.postimg.cc/ZnxHfZk1/elixir.png',
   author: 'Team Elixir',
   url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  legalName: 'Team Elixir',
+  defaultDescription: 'A library of inspiring product lauch videos along with tools to build your own.',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
