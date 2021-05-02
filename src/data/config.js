@@ -1,7 +1,7 @@
 module.exports = {
-  defaultTitle: 'John Doe',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  defaultTitle: 'Elixir',
+  logo: 'https://i.postimg.cc/ZnxHfZk1/elixir.png',
+  author: 'Team Elixir',
   url: 'https://portfolio.smakosh.com',
   legalName: 'John Doe',
   defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
