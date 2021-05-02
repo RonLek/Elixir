@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, SEO } from "components/common";
-import { Intro, Skills, Contact, Projects } from "components/landing";
+import { Intro, Skills, Contact, Projects,SpeechSynth } from "components/landing";
 import { createMemoryHistory } from "history";
 
 export default () => (
@@ -9,6 +9,7 @@ export default () => (
     <Intro />
     <Projects />
     <Skills />
+    <SpeechSynth/>
     <Contact />
   </Layout>
 );
