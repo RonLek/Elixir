@@ -12,6 +12,7 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#about">Home</AnchorLink>
       <AnchorLink href="#projects">Products</AnchorLink>
       <AnchorLink href="#tunes">Tunes</AnchorLink>
+      <AnchorLink href="#voiceover">VoiceOver</AnchorLink>
       <AnchorLink href="#contact">Add</AnchorLink>
       <ToggleTheme />
     </Wrapper>

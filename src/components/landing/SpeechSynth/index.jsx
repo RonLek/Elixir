@@ -9,7 +9,7 @@ export const SpeechSynth = () => {
     const [open, setOpen] = React.useState(false);
   
     return (
-      <Wrapper as={Container} id="contact">
+      <Wrapper as={Container} id="voiceover">
         <Details>
           <h1>Want Voiceover for your videos?</h1>
           <h3>Add text and click download to get the Voiceover</h3>

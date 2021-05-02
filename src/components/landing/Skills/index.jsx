@@ -12,7 +12,7 @@ export const Skills = () => {
 
   return (
     <>
-    <Wrapper id="about">
+    <Wrapper id="tunes">
       <SkillsWrapper as={Container}>
         <Details theme={theme}>
           <center><h1>Recommended Tunes</h1></center>
@@ -26,7 +26,7 @@ export const Skills = () => {
       </SkillsWrapper>
     </Wrapper>
     <div  style={{backgroundColor: "rgb(243, 244, 249)"}}>      
-      <div  id="tunes" style={{paddingLeft:"20px",display:"flex",justifyContent:"center"}} >
+      <div  id="spotify" style={{paddingLeft:"20px",display:"flex",justifyContent:"center"}} >
       <iframe className="playerVal" id="myFrame" src="https://open.spotify.com/embed/playlist/5SMjI3BRUfxfOPpmun0p7s" width="95%" height="700" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>  
